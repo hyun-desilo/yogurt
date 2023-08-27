@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "build": "babel vanilla -d lib --copy-files",
+    "build": "babel src -d lib --copy-files",
     "start": "npx serve -s lib"
   },
   "devDependencies": {
